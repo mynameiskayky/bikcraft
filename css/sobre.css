@@ -1,0 +1,63 @@
+.interna-sobre {
+  background: url('../img/bg-sobre.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.missao-sobre {
+  display: flex;
+  max-width: 960px;
+  justify-content: space-between;
+  padding: 60px 20px 0;
+}
+
+.missao-info {
+  width: 100%;
+}
+
+.subtitulo-interno {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px 0 20px;
+}
+
+.missao-sobre p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding-right: 60px;
+  max-width: 600px;
+}
+
+.missao-sobre ul li {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.valores-info {
+  width: 400px;
+}
+
+.foto-equipe {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px 0;
+}
+
+.foto-equipe img {
+  width: 100%;
+  max-width: 920px;
+}

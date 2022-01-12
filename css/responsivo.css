@@ -1,0 +1,301 @@
+/* Estilo para tablet */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* Página Produtos */
+  .produto-item {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    padding: 60px 20px 0;
+  }
+
+  .produto-item .grid-11 {
+    display: flex;
+    flex: 2 1 450px;
+  }
+
+  .produto-item .grid-8 {
+    display: flex;
+    flex: 1 1 25%;
+  }
+
+  .produto-icone {
+    display: flex;
+    flex: 1 1 209px;
+    flex-wrap: wrap;
+  }
+
+  .produto-item img {
+    width: 100%;
+    display: flex;
+    flex: 2 1 200px;
+  }
+
+  .produto-icone {
+    width: 229px;
+    padding: 30px;
+  }
+
+  .produto-icone img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .produto-item .produto-info {
+    display: block;
+  }
+
+  .produto-item .produto-info ul {
+    top: 0;
+  }
+
+  .produto-info ul li {
+    font-size: 14px;
+    line-height: 20px;
+    width: 49.9%;
+    height: 49px;
+  }
+
+  /* form */
+  .orcamento {
+    max-width: 500px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .orcamento-dados {
+    width: 100%;
+  }
+
+  /* Página Contato */
+  /* form */
+
+  .contato-bg {
+    margin-top: 0px;
+    padding: 40px 0;
+    width: 100%;
+  }
+
+  .contato {
+    max-width: 500px;
+    flex-wrap: wrap;
+  }
+
+  .contato-form {
+    width: 100%;
+  }
+
+  .contato-dados {
+    width: 100%;
+    margin-top: -20px;
+  }
+
+  .contato-dados p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+/* Estilo para smartphones */
+@media only screen and (max-width: 767px) {
+  /* Header */
+  .header {
+    position: relative;
+  }
+
+  .container {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .container-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .header_menu {
+    margin-top: 7px;
+  }
+
+  .header_menu ul li {
+    border: 4px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 10px 10px 5px 5px;
+    width: 135px;
+  }
+
+  .header_menu ul li:hover {
+    border-color: white;
+  }
+
+  .menu-items {
+    width: 300px;
+    justify-content: center;
+  }
+
+  /* Introdução */
+  .introducao {
+    top: 0;
+    margin: 0;
+    background: url('../img/bg-mobile.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+  .introducao-info {
+    max-width: 300px;
+  }
+
+  .introducao-info p {
+    font-size: 14px;
+  }
+
+  .introducao h1 {
+    font-size: 36px;
+  }
+
+  .quote-externo p {
+    font-size: 14px;
+  }
+
+  /* INtrodução Interna */
+  .introducao-interna {
+    margin-top: 0;
+  }
+
+  .introducao-info {
+    margin: 0 auto;
+  }
+
+  /* Página Produtos */
+  .produtos {
+    max-width: 310px;
+  }
+
+  .produtos p {
+    font-size: 14px;
+  }
+
+  .produtos_lista {
+    margin-bottom: 0;
+  }
+
+  .call {
+    margin-bottom: 0;
+  }
+
+  /* Qualidade */
+  .qualidade-lista {
+    padding-top: 20px;
+  }
+
+  .qualidade-lista p {
+    font-size: 14px;
+    color: black;
+  }
+
+  .qualidade:after {
+    display: none;
+  }
+
+  /* Rodapé */
+  .footer h3 {
+    font-size: 18px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+
+  /* Direitos */
+  .copy {
+    font-size: 14px;
+  }
+
+  /* Página Sobre */
+  .missao-sobre {
+    flex-wrap: wrap;
+  }
+
+  .missao-info {
+    width: 100%;
+  }
+
+  /* Produtos */
+  .produto-item img {
+    width: 100%;
+  }
+
+  .produto-icone {
+    width: 100%;
+    padding: 40px 0;
+  }
+
+  .produto-icone img {
+    max-width: 200px;
+  }
+
+  .produto-info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: auto;
+    padding: 20px 30px;
+  }
+
+  .produto-info ul {
+    bottom: 0;
+  }
+
+  .produto-info ul li {
+    font-size: 14px;
+    line-height: 20px;
+    width: 49.9%;
+    height: 49px;
+  }
+
+  /* form */
+  .orcamento {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .orcamento-dados {
+    width: 100%;
+  }
+
+  /* Página Contato */
+  /* form */
+
+  .contato-bg {
+    margin-top: 0px;
+    padding: 40px 0;
+    width: 100%;
+  }
+
+  .contato {
+    flex-wrap: wrap;
+  }
+
+  .contato-form {
+    width: 100%;
+  }
+
+  .contato-dados {
+    width: 100%;
+    margin-top: -20px;
+  }
+
+  .contato-dados p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
